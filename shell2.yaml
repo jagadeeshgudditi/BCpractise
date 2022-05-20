@@ -1,0 +1,11 @@
+---
+#play1
+- name: Transfer and execute a script
+  hosts: localhost
+  tasks:
+    - name: copy script 
+      template: src=/home/vmjagadeesh/Practiseansible/scripts/script1.sh dest=/home/vmjagadeesh/Practiseansible/scripts/script2.sh
+
+    - name: Execute script
+      script: /home/vmjagadeesh/Practiseansible/scripts/script2.sh
+

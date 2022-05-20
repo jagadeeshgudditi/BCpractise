@@ -1,0 +1,10 @@
+---
+# Install git,python,docker
+- name: installing git,python,docker
+  hosts: localhost
+  become: yes
+  roles: 
+  roles: 
+    - /home/vmjagadeesh/Practiseansible/Roles/install_git
+    - /home/vmjagadeesh/Practiseansible/Roles/install_python
+    - /home/vmjagadeesh/Practiseansible/Roles/install_docker

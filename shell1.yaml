@@ -1,0 +1,6 @@
+---
+- name: running script file
+  hosts: localhost
+  tasks:
+    - name: Running script file hyperledger fabric
+      script: /home/vmjagadeesh/Practiseansible/scripts/bootstrap.sh

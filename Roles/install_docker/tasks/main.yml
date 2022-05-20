@@ -1,0 +1,4 @@
+---
+# tasks file for install_docker
+- name: 'install docker'
+  command: 'bash -c "curl -fsSL https://get.docker.com/ | sh"'
